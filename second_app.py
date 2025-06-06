@@ -26,7 +26,7 @@ class Essay(BaseModel):
     sections: List[str]
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyDLhL09S0b6ZwxceWd04TS6Ia7aM1XC2hc")
+client = genai.Client(api_key="API_KEY")
 
 # Initialize session state
 if 'tasks' not in st.session_state:
